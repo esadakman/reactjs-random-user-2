@@ -80,7 +80,7 @@ const PersonInfo = () => {
         setText1={setText1}
         setText2={setText2}
       />
-      {/* <ButtonTable /> */}
+      <ButtonTable ApiFetcher={ApiFetcher} fetchPerson={fetchPerson} />
     </div>
   );
 };

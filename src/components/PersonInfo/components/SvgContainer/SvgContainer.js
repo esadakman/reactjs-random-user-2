@@ -9,7 +9,7 @@ import growingupman from "../../../../assets/growing-up-man.svg";
 import growingupwoman from "../../../../assets/growing-up-woman.svg";
 import map from "../../../../assets/map.svg";
 import phone from "../../../../assets/phone.svg";
-import padlock from "../../../../assets/padlock.svg";
+// import padlock from "../../../../assets/padlock.svg";
 
 const SvgContainer = ({ fetchPerson, setText1, setText2 }) => {
   const svgHoverHandler = (e) => {
@@ -53,7 +53,7 @@ const SvgContainer = ({ fetchPerson, setText1, setText2 }) => {
       <img
         src={phone}
         alt="phone"
-        name="email"
+        name="phone"
         className={styling.svg}
         onMouseOver={svgHoverHandler}
       />
