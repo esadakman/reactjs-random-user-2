@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import styling from "./PersonInfo.module.scss";
 import spinner from "../../assets/spinner.svg";
+import SvgContainer from "./components/SvgContainer/SvgContainer";
+import ButtonTable from "./components/ButtonTable/ButtonTable";
 
 const url = "https://randomuser.me/api/";
 
@@ -73,6 +75,12 @@ const PersonInfo = () => {
           </>
         )}
       </div>
+      <SvgContainer
+        fetchPerson={fetchPerson}
+        setText1={setText1}
+        setText2={setText2}
+      />
+      {/* <ButtonTable /> */}
     </div>
   );
 };
