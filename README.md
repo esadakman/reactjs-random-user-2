@@ -62,7 +62,7 @@ SOLUTION
 ### Installation
 
 ```
-$ git clone https://github.com/esadakman/random-user-app-2.git
+$ git clone https://github.com/esadakman/reactjs-random-user-2.git
 $ cd ../random-user-app-2
 $ npm install / yarn
 $ npm start / yarn start
